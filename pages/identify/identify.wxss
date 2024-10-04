@@ -5,28 +5,30 @@
   align-items: center;
 }
 
-.identify-logo{
+.identify-logo {
   width: 60px;
+  height: 146px;
 }
 
-.slogan{
+.slogan {
   margin-top: 50px;
   display: flex;
-  flex-direction:column; /* 子元素横向排列，默认横向
-  /*align-items: center;     /* 子元素在交叉轴上的起点对齐（水平居中） */
-  justify-content: center; /* 子元素在主轴上的起点对齐（垂直居中） */
-  /*height: 100%;            /* 高度占满整个屏幕 */
+  flex-direction: column; /* 子元素纵向排列 */
+  align-items: center; /* 子元素在交叉轴上的居中对齐 */
+  justify-content: center; /* 子元素在主轴上的居中对齐 */
 }
-
 
 .form-item {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  width: 80%; /* 确保所有表单项宽度一致 */
 }
 
 .form-item text {
   margin-right: 10px;
+  width: 80px; /* 固定宽度，使标签对齐 */
+  text-align: right; /* 右对齐文本 */
 }
 
 .input {
@@ -43,8 +45,10 @@
 .auth-button {
   width: 100%;
   padding: 10px;
-  background-color: #1AAD19; /* 微信绿 */
+  margin-top: 20px;
+  background-color: #69a3e6; /* 微信绿 */
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 27px;
+  
 }

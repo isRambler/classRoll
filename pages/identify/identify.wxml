@@ -2,8 +2,8 @@
   <view class="form-item">
     <image src="/images/identify/identify.png" mode="widthFix" class="indetify-logo"></image>
     <view class="slogan">
-    <view><text>即刻加入      认证专区</text></view>
-    <view><text>为您的合法权益保驾护航</text></view>
+    <view>即刻加入      认证专区</view>
+    <view>为您的合法权益保驾护航</view>
     </view>
   </view>
   
