@@ -1,0 +1,51 @@
+.container {
+  padding: 20px;
+}
+
+/* .user-info text {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+} */
+.slogan{
+  margin-top: 50px;
+  display: flex;
+  flex-direction:column; /* 子元素横向排列，默认横向
+  /*align-items: center;     /* 子元素在交叉轴上的起点对齐（水平居中） */
+  justify-content: center; /* 子元素在主轴上的起点对齐（垂直居中） */
+  /*height: 100%;            /* 高度占满整个屏幕 */
+}
+
+
+.form-item {
+  /* display: flex; */
+  margin-bottom: 20px;
+}
+
+.form-item view {
+  /* margin-bottom: 10px; */
+  margin-bottom: 5px;
+}
+.status {
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.radio-group {
+  margin-top: 5px;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1AAD19; /* 微信绿 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+}

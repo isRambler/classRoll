@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="slogan">
+    <view>↓↓↓即刻加入认证专区</view>
+    <view>实现快乐点名</view>
+  </view>
+  <view class="form-item">
+    <view><text>姓名</text></view>
+    <input class="input" type="text" placeholder="请输入真实姓名" bindinput="onNameInput"/>
+  </view>
+  <view class="status">
+    <view><text>身份</text></view>
+    <view>
+      <radio-group class="radio-group" bindchange="onIdentityChange">
+      <label><radio value="student" checked="true"/> 学生 </label>
+      <label><radio value="teacher" checked="true"/> 教师 </label>
+      <!-- 可以添加其他身份的单选按钮 -->
+      </radio-group>
+    </view>
+  </view>
+  <view class="form-item">
+    <view><text>学校</text></view>
+    <input class="input" type="text" placeholder="请输入学校全称" bindinput="onSchoolInput"/>
+  </view>
+  <view class="form-item">
+    <view><text>学工号</text></view>
+    <input class="input" type="text" placeholder="请输入学工号" bindinput="onStudentIDInput"/>
+  </view>
+  <button class="auth-button" bindtap="onAuth">一键认证</button>
+</view>

@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="login-header">
+    <text class="welcome-text">欢迎使用</text>
+  </view>
+  <view class="classroll-title">
+    <text>classRoll</text>
+  </view>
+  <button class="login-button" open-type="getUserInfo" bindgetuserinfo="onLogin">使用微信账号登录</button>
+  <view class="login-tips">
+    <text>微信授权登录，用于保障您的账号安全</text>
+  </view>
+  <view class="footer-text">
+    <view class="slogan1">
+      <text>我们的课堂聚焦学习</text>
+    </view>
+    <view class="slogan2">
+      <text>我们的软件专注点名</text>
+    </view>
+  </view>
+</view>
