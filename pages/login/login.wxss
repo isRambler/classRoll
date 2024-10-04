@@ -9,21 +9,21 @@
 
 /* 登录头部的样式，包含时间和欢迎文本 */
 .login-header {
-  margin-bottom: 20px; /* 底部留白 */
+  margin-bottom: 20rpx; /* 底部留白 */
 }
 
 
 /* 欢迎文本的样式 */
 .welcome-text {
-  font-size: 18px;   /* 字体大小 */
+  font-size: 36px;   /* 字体大小 */
+  font-weight:bold;
   color: #333;       /* 字体颜色 */
 }
 
-/* 类名标题的样式 */
-.classroll-title {
-  font-size: 24px;   /* 字体大小 */
-  color: #333;       /* 字体颜色 */
-  margin: 20px ;    /* 上下留白 */
+/* logo的样式 */
+.login-logo {
+  width: 169px;
+  
 }
 
 /* 登录按钮的样式 */
@@ -32,7 +32,8 @@
   color: white;                     /* 字体颜色 */
   padding: 10px;                    /* 内边距 */
   margin: 20px 0;                   /* 上下留白 */
-  border-radius: 5px;               /* 边框圆角 */
+  border-radius: 26px;               /* 边框圆角 */
+  font-size: 15px;
 }
 
 /* 登录提示文本的样式 */
@@ -49,9 +50,14 @@
 
 .footer-text {
   font-size: 20px;  /* 字体大小 */
+  font-family: "Lucida Calligraphy", cursive, serif, sans-serif;
+  font-weight: bold;
   color: #333;      /* 字体颜色 */
   margin-top: 200px; /* 顶部留白 */
   margin-bottom: 20px; /*  */
   width: 100%; /* 宽度占满整个屏幕 */
   text-align: center; /* 文字居中显示 */
+}
+.slogan1 {
+  margin-bottom: 5px;
 }

@@ -1,11 +1,13 @@
 {
   "pages": [
+    "pages/identify/identify",
+    "pages/login/login",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "classRoll",
     "navigationBarBackgroundColor": "#ffffff"
   },
   "style": "v2",
